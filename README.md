@@ -35,7 +35,7 @@ F.R.I.D.A.Y. is a next-generation Hybrid AI Desktop Assistant designed for seaml
 
 ### 1. Repository Setup
 ```bash
-git clone [https://github.com/NSxSharpyy/Friday.git](https://github.com/NSxSharpyy/Friday.git)
+git clone https://github.com/NSxSharpyy/Friday.git](https://github.com/NSxSharpyy/Friday.git
 cd Friday
 
 ```
