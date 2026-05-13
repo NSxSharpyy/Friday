@@ -60,7 +60,7 @@ Benefit: Provides lightning-fast responses with zero load on your CPU.
 Local Intelligence (Ollama - Private & Offline):
 
 Download and install Ollama.
-```
+
 
 Open your terminal and run:
 ```bash
