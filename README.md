@@ -82,7 +82,7 @@ Test how the AI interacts with your hardware:
 
 "Good afternoon/morning/night" - Update about the time,temp,system info.
 
-"Kaisi ho,Friday" - Response in your language.
+"Kaisi ho,Friday" - Friday will response in your language.
 
 "Lock the system" – Immediately locks the Windows workstation.
 
