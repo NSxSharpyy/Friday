@@ -74,3 +74,40 @@ Once the environment is ready, ignite the system with:
 ```
 python my_friday.py
 ```
+🎮 Command Center (Voice & Text)
+You can interact with F.R.I.D.A.Y. using the following commands to verify its core modules:
+
+⚡ 1. System Orchestration (OS Control)
+Test how the AI interacts with your hardware:
+
+"Good afternoon/morning/night" - Update about the time,temp,system info.
+
+"Kaisi ho,Friday" - Response in your language.
+
+"Lock the system" – Immediately locks the Windows workstation.
+
+"Open [App Name]" – (e.g., "Open Notepad", "Open Chrome") Launches local applications.
+
+"Set brightness to 70%" – Adjusts display levels using hardware hooks.
+
+"What is my battery level?" – Reports current power status and charging state.
+
+"Volume up / Volume down" – Controls system master audio.
+
+
+
+🧠 2. Hybrid Brain (Cloud vs Local)
+Switching between Groq (Online) and Ollama (Offline):
+
+"Switch to Local mode" – Transitions processing to Ollama/Llama3.
+
+"Search for [Topic]" – Fetches real-time information using Groq LPU.
+
+"Write a Python script for..." – Tests the LLM's coding and logic capabilities.
+
+👻 3. UI & Stealth Interaction
+"Go to sleep" – Minimizes the HUD to the system tray (Ghost Mode).
+
+"Wake up" – (Or use the Clap Trigger) Brings the futuristic UI back to full screen.
+
+"Clear chat" – Wipes the current session's visual dialogue history.
