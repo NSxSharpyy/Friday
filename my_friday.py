@@ -59,7 +59,7 @@ def load_json(filepath, default_data):
     with open(filepath, 'r') as f: return json.load(f)
 
 config = load_json(CONFIG_FILE, {"GROQ_API_KEY": ""})
-memory = load_json(MEMORY_FILE, {"user_name": "Hansraj", "preferences": {}})
+memory = load_json(MEMORY_FILE, {"user_name": "Boss", "preferences": {}})
 protocols = load_json(PROTOCOL_FILE, {"hacker_protocol": ["open cmd", "play hacker music"]})
 
 if not os.path.exists("plugins"): os.makedirs("plugins")
@@ -205,7 +205,7 @@ class FridayBackend(QThread):
     def execute_command(self, query):
         self.last_interaction_time = time.time()
         query = query.lower().strip()
-        user_name = memory.get("user_name", "Hansraj")
+        user_name = memory.get("user_name", "Boss")
 
         for proto_name, actions in protocols.items():
             if proto_name.replace("_", " ") in query:
@@ -381,7 +381,7 @@ class FridayBackend(QThread):
 
     def run(self):
         self.fetch_geolocation()
-        user_name = memory.get('user_name', 'Hansraj')
+        user_name = memory.get('user_name', 'Boss')
         boot_dialogue = (
             "Importing preferences and calibrating virtual environment. "
             "Doing a check on virtual neural networks. "
