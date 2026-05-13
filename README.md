@@ -34,13 +34,14 @@ F.R.I.D.A.Y. is a next-generation Hybrid AI Desktop Assistant designed for seaml
 ## 🛠️ Installation & Deployment
 
 ### 1. Repository Setup
-bash
+```bash
 git clone [https://github.com/NSxSharpyy/Friday.git](https://github.com/NSxSharpyy/Friday.git)
 cd Friday
+
 ```
-### 2. Install Dependencies```
+### 2. Install Dependencies
 Make sure you have Python 3.12+ installed. Open your terminal and run:
-bash
+```bash
 pip install -r requirements.txt
 
 ```
@@ -62,7 +63,8 @@ Download and install Ollama.
 Open your terminal and run: ollama run llama3.
 
 Benefit: F.R.I.D.A.Y. will automatically fallback to this model if you lose internet connectivity, ensuring 100% privacy.
-
+```
+```
 4. Launch F.R.I.D.A.Y.
 Once the environment is ready, ignite the system with:
 python my_friday.py
