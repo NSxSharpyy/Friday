@@ -1,0 +1,17 @@
+# Sensitive Data
+friday_config.json
+friday_memory.json
+friday_protocols.json
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+
+# Voice files (Temporary)
+voice_*.mp3
+temp_screen.jpg
+temp_cam.jpg
