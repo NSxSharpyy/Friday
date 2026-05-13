@@ -34,7 +34,7 @@ F.R.I.D.A.Y. is a next-generation Hybrid AI Desktop Assistant designed for seaml
 ## 🛠️ Installation & Deployment
 
 ### 1. Repository Setup
-```bash
+bash
 git clone [https://github.com/NSxSharpyy/Friday.git](https://github.com/NSxSharpyy/Friday.git)
 cd Friday
 ```
@@ -42,7 +42,6 @@ cd Friday
 Make sure you have Python 3.12+ installed. Open your terminal and run:
 bash
 pip install -r requirements.txt
-```
 
 ```
 3. Setup AI Engines (Hybrid Brain)
