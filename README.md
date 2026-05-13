@@ -68,9 +68,9 @@ ollama run llama3.
 ```
 
 Benefit: F.R.I.D.A.Y. will automatically fallback to this model if you lose internet connectivity, ensuring 100% privacy.
-```
-```
+
 4. Launch F.R.I.D.A.Y.
 Once the environment is ready, ignite the system with:
 ```
 python my_friday.py
+```
