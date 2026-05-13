@@ -45,7 +45,7 @@ Make sure you have Python 3.12+ installed. Open your terminal and run:
 pip install -r requirements.txt
 
 ```
-```
+
 3. Setup AI Engines (Hybrid Brain)
 The system is designed to work both online and offline. You can configure one or both:
 
@@ -62,7 +62,9 @@ Local Intelligence (Ollama - Private & Offline):
 Download and install Ollama.
 ```
 
-Open your terminal and run: ollama run llama3.
+Open your terminal and run:
+```bash
+ollama run llama3.
 ```
 
 Benefit: F.R.I.D.A.Y. will automatically fallback to this model if you lose internet connectivity, ensuring 100% privacy.
